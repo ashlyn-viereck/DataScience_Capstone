@@ -1,11 +1,11 @@
 # Data Science Capstone
 ## Deep Fake Detection using Deep Learning Methods 
 
-** Dataset of focus**  - WELFake dataset
+**Dataset of focus**  - WELFake dataset
 
-** Models ** - Naive Bayes, Long Short-Term Memory (LSTM) RNN model 
+**Models** - Naive Bayes, Long Short-Term Memory (LSTM) RNN model 
 
-** Enhancement ** - I will be attempting to add a retrieval / evidence-based component that uses google search engines to look for references to similar topics to gauge whether there is evidence to support the article. 
+**Enhancement** - I will be attempting to add a retrieval / evidence-based component that uses google search engines to look for references to similar topics to gauge whether there is evidence to support the article. 
 
 
 P.S. 
