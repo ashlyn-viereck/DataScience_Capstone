@@ -24,8 +24,27 @@ This project implements and compares multiple deep learning approaches for fake 
 | Naive Bayes | 82% |
 | LSTM (RNN) | 95% |
 
+### LSTM Model Performance
+
+**Confusion Matrix**
+
+![LSTM Confusion Matrix](images/confusion_matrix_lstm.png)
+
+The confusion matrix shows strong classification performance with:
+- True Positives (Real detected as Real): 6,715 (46.5%)
+- True Negatives (Fake detected as Fake): 6,843 (47.4%)
+- False Positives: 623 (4.3%)
+- False Negatives: 246 (1.7%)
+
+**Training History**
+
+![Model Training Curves](images/training_curves.png)
+
+The training curves demonstrate effective learning with minimal overfitting, reaching optimal performance around epoch 3.
+
 ### Planned Enhancement
 Integration of a retrieval-based verification system that cross-references article content with real-world evidence from Google search results to provide additional validation signals.
+
 
 ##  Getting Started/ Set Up
 
