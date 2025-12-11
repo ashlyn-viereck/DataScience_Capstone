@@ -22,7 +22,7 @@ This project implements and compares multiple deep learning approaches for fake 
 | Model | Accuracy |
 |-------|----------|
 | Naive Bayes | 82% |
-| LSTM (RNN) | 95% |
+| LSTM (RNN) | 93% |
 
 ### LSTM Model Performance
 
