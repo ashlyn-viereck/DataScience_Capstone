@@ -6,18 +6,31 @@ A data science capstone project exploring machine learning approaches to detect 
 
 This project implements and compares multiple deep learning approaches for fake news detection using the WELFake dataset. The system analyzes text content to classify articles as real or fake, achieving up to 95% accuracy with LSTM models.
 
+### 🔹 Demo Video
+To see the system in action, watch the demo video here:
+
+### Demo Video
+[Watch Demo](videos/demo.mov)
+
+
+This short walkthrough demonstrates the interface, classification workflow, and evidence-retrieval process.
+
 ### Key Features
 - **Multiple Model Architectures**: Comparison between Naive Bayes and LSTM-based approaches
 - **Evidence-Based Enhancement**: Novel retrieval component that uses Google search to find corroborating evidence for article claims
 - **High Accuracy**: Achieved 95% accuracy with optimized LSTM model
 
-##  Dataset
+---
+
+## Dataset
 
 **WELFake Dataset** - A comprehensive fake news detection dataset combining multiple sources
 - Contains real and fake news articles across various topics
 - Balanced dataset for fair model evaluation
 
-##  Current Results
+---
+
+## Current Results
 
 | Model | Accuracy |
 |-------|----------|
@@ -45,8 +58,26 @@ The training curves demonstrate effective learning with minimal overfitting, rea
 ### Planned Enhancement
 Integration of a retrieval-based verification system that cross-references article content with real-world evidence from Google search results to provide additional validation signals.
 
+---
 
-##  Getting Started/ Set Up
+## 🚀 **Live Deployed Model**
+
+A fully deployable, interactive version of the fake news classifier is hosted on HuggingFace Spaces:
+
+👉 **Live Web App:**  
+https://ashvie-fakenewsdetector.hf.space/?__theme=system&deep_link=cQFbDLrYGrQ
+
+**What it does:**  
+- Accepts article text or pasted content  
+- Runs the optimized LSTM model to classify as *Real* or *Fake*  
+- Automatically retrieves Google search results to provide supporting or contradicting evidence  
+- Displays confidence scores and relevant links  
+
+This demo allows users to experience real-time automated fake news detection without running the code locally.
+
+---
+
+## Getting Started / Set Up
 
 ### Prerequisites
 - Python 3.7 or higher
