@@ -10,7 +10,7 @@ This project implements and compares multiple deep learning approaches for fake 
 To see the system in action, watch the demo video here:
 
 ### Demo Video
-[Watch Demo](videos/demo.mov)
+[Watch Demo](videos/demo.mov) (Unable to upload due to size but I will be posting on youtube so i can link to it soon) 
 
 
 This short walkthrough demonstrates the interface, classification workflow, and evidence-retrieval process.
